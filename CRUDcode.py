@@ -71,7 +71,7 @@ trv.heading(2,text = "first name")
 trv.heading(3,text = "last name")
 trv.heading(4,text = "age")
 trv.bind("<Double-1>",getall)
-mydb =mysql.connector.connect(host='localhost', user='root', password='Death@123', database='hotelui')
+mydb =mysql.connector.connect(host='localhost', user='root', password='#', database='hotelui')
 cursor =mydb.cursor()
 command = "select id,first_name,last_name,age from customers"
 cursor.execute(command)
